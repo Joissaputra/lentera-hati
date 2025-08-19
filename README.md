@@ -1,4 +1,7 @@
 
+<html lang="id" class="scroll-smooth">
+<head>
+  
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
