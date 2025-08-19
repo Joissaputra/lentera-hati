@@ -151,11 +151,11 @@
                 <!-- Accordion Item 2 -->
                 <div class="card-bg rounded-xl fade-in">
                     <button class="accordion-header w-full flex justify-between items-center text-left p-5">
-                        <span class="text-lg font-semibold text-white">Shambala</span>
+                        <span class="text-lg font-semibold text-white">Shambhala</span>
                         <i data-feather="chevron-down" class="w-5 h-5 text-purple-400 transition-transform duration-500 accordion-icon"></i>
                     </button>
                     <div class="accordion-content px-5">
-                        <p class="text-gray-400 pb-5">Menggabungkan energi Reiki dengan getaran cinta kasih dari para Ascended Masters. Shambala mempercepat proses penyembuhan dan pertumbuhan spiritual, membuka kesadaran akan multidimensionalitas diri.</p>
+                        <p class="text-gray-400 pb-5">Menggabungkan energi Reiki dengan getaran cinta kasih dari para Ascended Masters. Shambhala mempercepat proses penyembuhan dan pertumbuhan spiritual, membuka kesadaran akan multidimensionalitas diri.</p>
                     </div>
                 </div>
                 <!-- Accordion Item 3 -->
@@ -185,7 +185,7 @@
                         <i data-feather="chevron-down" class="w-5 h-5 text-purple-400 transition-transform duration-500 accordion-icon"></i>
                     </button>
                     <div class="accordion-content px-5">
-                        <p class="text-gray-400 pb-5">Reiki White Lotus adalah sistem energi yang berfokus pada pemurnian mendalam, membawa kedamaian, dan membuka potensi spiritual.membantu membersihkan energi negatif, dan menciptakan aura yang lebih terang dan murni.</p>
+                        <p class="text-gray-400 pb-5">Reiki White Lotus adalah sistem energi yang berfokus pada pemurnian mendalam, membawa kedamaian, membuka potensi spiritual.membantu membersihkan energi negatif, dan menciptakan aura yang lebih terang dan murni.</p>
                     </div>
                 </div>
                 <!-- Accordion Item 6 - NEW -->
@@ -247,22 +247,18 @@
         <section class="py-20">
             <div class="text-center px-6 fade-in">
                 <h2 class="font-heading text-3xl text-white">Galeri Komunitas</h2>
-                <p class="mt-2 text-gray-400">Potret kebersamaan dalam setiap sesi kami.</p>
+                <p class="mt-2 text-gray-400">Potret kebersamaan dalam setiap sesi di Lentera Hati Indonesia.</p>
             </div>
             <div class="swiper-container mt-12 fade-in" id="gallery-slider">
                 <div class="swiper-wrapper">
-                    <!-- Corrected image URLs and alt text -->
-                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/dfcoznksdgnm2wehk27xa/IMG-20250408-WA0006.jpg?rlkey=k4gpc1ofdqdsh6t41vsovj6rw&st=1459vaem&raw=1" alt="Kegiatan Reiki 1" class="rounded-2xl aspect-video object-cover"></div>
-                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/7olljvfvvch1ki9974hqv/IMG-20250408-WA0004.jpg?rlkey=yh1xkpa1ppsdg9w4aq4x1autc&st=qq37r1zo&raw=1" alt="Kegiatan Reiki 2" class="rounded-2xl aspect-video object-cover"></div>
-                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/9jfucfcea5n26focmzcri/IMG-20230501-WA0009.jpg?rlkey=tu3i598tcwsb79mi6infnhvxe&st=unipufz7&raw=1" alt="Kegiatan Reiki 3" class="rounded-2xl aspect-video object-cover"></div>
-                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/n01pu9s3ropfn4akq3lwq/FB_IMG_1755507226204.jpg?rlkey=34uque5evelk4qj17p1ugyvne&st=ydaz2ns4&raw=1" alt="Kegiatan Reiki 4" class="rounded-2xl aspect-video object-cover"></div>
+                    
                     <!-- NEW SLIDES ADDED HERE -->
-                    <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1544410191-23d24075196f?q=80&w=1200&auto=format&fit=crop" alt="Komunitas Meditasi" class="rounded-2xl aspect-video object-cover"></div>
-                    <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1517482438596-f0f72535091c?q=80&w=1200&auto=format&fit=crop" alt="Latihan Relaksasi" class="rounded-2xl aspect-video object-cover"></div>
-                    <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1599908643878-5779035e4d22?q=80&w=1200&auto=format&fit=crop" alt="Penyembuhan Energi" class="rounded-2xl aspect-video object-cover"></div>
-                    <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1588725455938-1a5c602c3751?q=80&w=1200&auto=format&fit=crop" alt="Sesi Bimbingan" class="rounded-2xl aspect-video object-cover"></div>
-                    <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1517377561962-d45ac1a9a81f?q=80&w=1200&auto=format&fit=crop" alt="Kebersamaan Peserta" class="rounded-2xl aspect-video object-cover"></div>
-                    <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1506126613408-eca0ce68773?q=80&w=1200&auto=format&fit=crop" alt="Lentera Hati Komunitas" class="rounded-2xl aspect-video object-cover"></div>
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/9jfucfcea5n26focmzcri/IMG-20230501-WA0009.jpg?rlkey=tu3i598tcwsb79mi6infnhvxe&st=739ckvbw&raw=1" alt="Keluarga Besar" class="rounded-2xl aspect-video object-cover"></div>
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/5z7v5msoz2zodc0a04f2p/FB_IMG_1755507390518.jpg?rlkey=7k03hq3spv6z3befufccfefrk&st=5mq3rohj&raw=1" alt="Penyembuhan Energi" class="rounded-2xl aspect-video object-cover"></div>
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/thvo7qqg5kd0rz364jo8y/FB_IMG_1755577344404.jpg?rlkey=jdhd9c17it7m2k53h64balftm&st=2h2m4uvx&raw=1" alt="Seni Fortex" class="rounded-2xl aspect-video object-cover"></div>
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/6j2kzfy3jmqtg4m605hqc/FB_IMG_1755577268196.jpg?rlkey=sd18vsnnasckyggpaq1xpa51t&st=stxplhah&raw=1" alt="Sesi Bimbingan" class="rounded-2xl aspect-video object-cover"></div>
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/f94w962yhsa693vjhixqg/FB_IMG_1755576912908.jpg?rlkey=sguqdjdy36ix9l1buimreqmap&st=8n6lbth4&raw=1" alt="Kebersamaan Peserta" class="rounded-2xl aspect-video object-cover"></div>
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/7olljvfvvch1ki9974hqv/IMG-20250408-WA0004.jpg?rlkey=yh1xkpa1ppsdg9w4aq4x1autc&st=j8pyhz1q&raw=1" alt="Lentera Hati Komomunitas" class="rounded-2xl aspect-video object-cover"></div>
                 </div>
                 <div class="swiper-pagination mt-8 relative"></div>
             </div>
@@ -277,12 +273,12 @@
                 <!-- Testimonial 1 -->
                 <div class="card-bg p-6 rounded-2xl border-l-4 border-purple-400 fade-in">
                     <p class="text-lg italic text-gray-200">"Ikut kelas ini adalah keputusan terbaik. Pikiran jadi lebih jernih, tidur lebih nyenyak, dan yang paling penting, saya merasa lebih 'utuh'. Mentornya sangat sabar dan komunitasnya positif banget."</p>
-                    <p class="mt-4 font-bold text-right text-white">- Maya, Karyawan Swasta</p>
+                    <p class="mt-4 font-bold text-right text-white">- cholis, Karyawan Swasta</p>
                 </div>
                 <!-- Testimonial 2 -->
                 <div class="card-bg p-6 rounded-2xl border-l-4 border-pink-300 fade-in">
                     <p class="text-lg italic text-gray-200">"Sebagai orang yang gampang cemas, materi Ho'oponopono benar-benar mengubah cara pandang saya. Belajar melepaskan beban itu ternyata melegakan. Terima kasih Lentera Hati!"</p>
-                    <p class="mt-4 font-bold text-right text-white">- Dito, Mahasiswa</p>
+                    <p class="mt-4 font-bold text-right text-white">- Dita, Mahasiswa</p>
                 </div>
             </div>
         </section>
