@@ -11,7 +11,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Syne:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Syne:wght@400;500;500&display=swap" rel="stylesheet">
 
     <!-- Swiper JS for Sliders -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -31,7 +31,10 @@
             font-weight: 800;
         }
         .hero-bg {
-            background: linear-gradient(to top, #0A0B1A 10%, rgba(10, 11, 26, 0.7)), url('https://images.unsplash.com/photo-1506126613408-eca0ce68773?q=80&w=1200&auto=format&fit=crop') center center/cover no-repeat;
+            background: linear-gradient(to top, #0A0B1A 15%, rgba(10, 11, 26, 0.6)), url('https://www.dropbox.com/scl/fi/dfcoznksdgnm2wehk27xa/IMG-20250408-WA0006.jpg?rlkey=k4gpc1ofdqdsh6t41vsovj6rw&st=nm9wxsd9&raw=1') center center/cover no-repeat;
+        }
+        .reiki-info-bg {
+            background: linear-gradient(rgba(10, 11, 26, 0.85), rgba(10, 11, 26, 0.85)), url('https://www.dropbox.com/scl/fi/wos8i50p8zy917u2uiy47/4K-HD-Ultra-Nature-Wallpaper.jpeg?rlkey=c0gsr13je6zvyl0vjzfxd22gj&raw=1') center center/cover no-repeat;
         }
         .gradient-text {
             background: linear-gradient(90deg, #A855F7, #EC4899);
@@ -73,6 +76,26 @@
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+        }
+        .testimonial-card {
+            position: relative;
+            overflow: hidden;
+        }
+        .double-exposure-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.15;
+            mix-blend-mode: screen;
+            pointer-events: none;
+            z-index: 0;
+        }
+        .testimonial-content {
+            position: relative;
+            z-index: 1;
         }
     </style>
 </head>
@@ -120,21 +143,44 @@
         <!-- About Reiki Section -->
         <section class="py-20 px-6">
             <div class="text-center max-w-3xl mx-auto fade-in">
-                <h2 class="font-heading text-3xl text-white">Apa Itu Reiki?</h2>
+                <h2 class="font-heading text-3xl text-white">Selamat Datang di Dunia Reiki</h2>
                 <p class="mt-4 text-gray-300 max-w-2xl mx-auto">
                     Reiki adalah teknik penyembuhan energi kuno dari Jepang yang bekerja dengan menyalurkan "energi kehidupan universal" melalui sentuhan lembut. Praktik ini membantu menyeimbangkan energi tubuh, pikiran, dan jiwa, sehingga mendukung proses penyembuhan alami.
                 </p>
-                <div class="mt-8 text-left max-w-xl mx-auto">
-                    <h3 class="font-bold text-xl text-white">Manfaat Utama Reiki:</h3>
-                    <ul class="mt-4 list-disc list-inside space-y-2 text-gray-400">
-                        <li>Mengurangi stres dan kecemasan</li>
-                        <li>Meningkatkan kualitas tidur</li>
-                        <li>Meringankan rasa sakit fisik</li>
-                        <li>Mendukung keseimbangan emosional</li>
-                        <li>Memperkuat sistem kekebalan tubuh</li>
-                        <li>Meningkatkan kejernihan mental dan fokus</li>
-                        <li>Membuka pintu menuju pertumbuhan spiritual</li>
-                    </ul>
+            </div>
+        </section>
+
+        <!-- New Detailed Reiki Info Section -->
+        <section class="py-20 px-6 reiki-info-bg">
+            <div class="container mx-auto max-w-4xl">
+                <div class="text-center mb-12 fade-in">
+                    <h2 class="font-heading text-3xl text-white">Memahami Reiki Lebih Dalam</h2>
+                </div>
+                <div class="grid md:grid-cols-2 gap-10 items-center">
+                    <div class="fade-in">
+                        <img src="https://www.dropbox.com/scl/fi/hrq0l0tqvnc8p49ozyx7o/image.jpg?rlkey=13d8li5gi6pd5if4melto2dhc&st=3vepus42&raw=1" alt="" class="rounded-xl shadow-2xl" onerror="this.onerror=null;this.src='https://placehold.co/600x700/0A0B1A/E5E7EB?text=Energi+Reiki';">
+                    </div>
+                    <div class="fade-in space-y-8">
+                        <div>
+                            <h3 class="font-bold text-xl text-purple-300 mb-2">Bagaimana Cara Kerja Reiki?</h3>
+                            <p class="text-gray-400">Seorang praktisi Reiki bertindak sebagai "saluran" bagi energi kehidupan universal. Energi ini kemudian mengalir melalui telapak tangan praktisi ke tubuh penerima. Uniknya, energi ini cerdas—ia akan mengalir ke bagian tubuh yang paling membutuhkan keseimbangan, membantu melepaskan sumbatan energi, dan mengaktifkan kemampuan penyembuhan alami tubuh.</p>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-xl text-purple-300 mb-2">Bukan Sihir, Ini Sains Energi</h3>
+                            <p class="text-gray-400">Reiki bukanlah agama atau kepercayaan mistis. Ini adalah praktik spiritual yang berlandaskan pada pemahaman bahwa semua hal terbuat dari energi. Dengan menyeimbangkan medan energi tubuh, kita dapat menciptakan kondisi optimal bagi kesehatan fisik dan mental. Ini adalah teknik relaksasi mendalam yang manfaatnya dapat dirasakan oleh siapa saja, apapun latar belakang kepercayaannya.</p>
+                        </div>
+                         <div>
+                            <h3 class="font-bold text-xl text-purple-300 mb-2">Untuk Siapa Reiki?</h3>
+                            <p class="text-gray-400">Reiki sangat bermanfaat bagi Anda yang:</p>
+                             <ul class="mt-2 list-disc list-inside space-y-1 text-gray-400">
+                                <li>Merasa stres, lelah, atau cemas</li>
+                                <li>Mengalami kesulitan tidur</li>
+                                <li>Ingin mempercepat pemulihan fisik</li>
+                                <li>Mencari keseimbangan emosional</li>
+                                <li>Ingin memulai perjalanan spiritual</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -261,12 +307,12 @@
                 <div class="swiper-wrapper">
                     
                     <!-- SLIDES -->
-                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/9jfucfcea5n26focmzcri/IMG-20230501-WA0009.jpg?rlkey=tu3i598tcwsb79mi6infnhvxe&st=739ckvbw&raw=1" alt="Keluarga Besar Lentera Hati" class="rounded-2xl aspect-video object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/0A0B1A/E5E7EB?text=Gambar+Rusak';"></div>
-                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/5z7vmssoz2zodc0a04f2p/FB_IMG_1755507390518.jpg?rlkey=7k03hq3spv6z3befufccfefrk&st=5mq3rohj&raw=1" alt="Sesi Penyembuhan Energi" class="rounded-2xl aspect-video object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/0A0B1A/E5E7EB?text=Gambar+Rusak';"></div>
-                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/thvo7qqg5kd0rz364jo8y/FB_IMG_1755577344404.jpg?rlkey=jdhd9c17it7m2k53h64balftm&st=2h2m4uvx&raw=1" alt="Seni Fortex oleh Komunitas" class="rounded-2xl aspect-video object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/0A0B1A/E5E7EB?text=Gambar+Rusak';"></div>
-                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/6j2kzfy3jmqtg4m605hqc/FB_IMG_1755577268196.jpg?rlkey=sd18vsnnasckyggpaq1xpa51t&st=stxplhah&raw=1" alt="Sesi Bimbingan Reiki" class="rounded-2xl aspect-video object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/0A0B1A/E5E7EB?text=Gambar+Rusak';"></div>
-                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/f94w962yhsa693vjhixqg/FB_IMG_1755576912908.jpg?rlkey=sguqdjdy36ix9l1buimreqmap&st=8n6lbth4&raw=1" alt="Kebersamaan Peserta Lentera Hati" class="rounded-2xl aspect-video object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/0A0B1A/E5E7EB?text=Gambar+Rusak';"></div>
-                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/7olljvfvvch1ki9974hqv/IMG-20250408-WA0004.jpg?rlkey=yh1xkpa1ppsdg9w4aq4x1autc&st=j8pyhz1q&raw=1" alt="Komunitas Lentera Hati Indonesia" class="rounded-2xl aspect-video object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/0A0B1A/E5E7EB?text=Gambar+Rusak';"></div>
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/9jfucfcea5n26focmzcri/IMG-20230501-WA0009.jpg?rlkey=tu3i598tcwsb79mi6infnhvxe&st=739ckvbw&raw=1" alt="Keluarga Besar Lentera Hati" class="rounded-2xl aspect-video object-cover"></div>
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/5z7vmssoz2zodc0a04f2p/FB_IMG_1755507390518.jpg?rlkey=7k03hq3spv6z3befufccfefrk&st=jc7hm7c8&raw=1" alt="Sesi Penyembuhan Energi" class="rounded-2xl aspect-video object-cover"></div>
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/thvo7qqg5kd0rz364jo8y/FB_IMG_1755577344404.jpg?rlkey=jdhd9c17it7m2k53h64balftm&st=2h2m4uvx&raw=1" alt="Seni Fortex oleh Komunitas" class="rounded-2xl aspect-video object-cover"></div>
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/dfcoznksdgnm2wehk27xa/IMG-20250408-WA0006.jpg?rlkey=k4gpc1ofdqdsh6t41vsovj6rw&st=4p9o33yu&raw=1" alt="Sesi Bimbingan Reiki" class="rounded-2xl aspect-video object-cover"></div>
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/f94w962yhsa693vjhixqg/FB_IMG_1755576912908.jpg?rlkey=sguqdjdy36ix9l1buimreqmap&st=8n6lbth4&raw=1" alt="Kebersamaan Peserta Lentera Hati" class="rounded-2xl aspect-video object-cover"></div>
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/7olljvfvvch1ki9974hqv/IMG-20250408-WA0004.jpg?rlkey=yh1xkpa1ppsdg9w4aq4x1autc&st=j8pyhz1q&raw=1" alt="Komunitas Lentera Hati Indonesia" class="rounded-2xl aspect-video object-cover"></div>
                 </div>
                 <div class="swiper-pagination mt-8 relative"></div>
             </div>
@@ -279,14 +325,20 @@
             </div>
             <div class="mt-12 max-w-2xl mx-auto space-y-8">
                 <!-- Testimonial 1 -->
-                <div class="card-bg p-6 rounded-2xl border-l-4 border-purple-400 fade-in">
-                    <p class="text-lg italic text-gray-200">"Ikut kelas ini adalah keputusan terbaik. Pikiran jadi lebih jernih, tidur lebih nyenyak, dan yang paling penting, saya merasa lebih 'utuh'. Mentornya sangat sabar dan komunitasnya positif banget."</p>
-                    <p class="mt-4 font-bold text-right text-white">- Cholis, Karyawan Swasta</p>
+                <div class="card-bg p-6 rounded-2xl border-l-4 border-purple-400 fade-in testimonial-card">
+                    <img src="https://www.dropbox.com/scl/fi/3aclo7g6wzipq4nnbw7fi/Unconditional-Love.jpeg?rlkey=hz2c6aqsultf6ti7gcpwq6hkn&st=px4p1etj&raw=1" alt="Double Exposure" class="double-exposure-img">
+                    <div class="testimonial-content">
+                        <p class="text-lg italic text-gray-200">"Ikut kelas ini adalah keputusan terbaik. Pikiran jadi lebih jernih, tidur lebih nyenyak, dan yang paling penting, saya merasa lebih 'utuh'. Mentornya sangat sabar dan komunitasnya positif banget."</p>
+                        <p class="mt-4 font-bold text-right text-white">- Cholis, Karyawan Swasta</p>
+                    </div>
                 </div>
                 <!-- Testimonial 2 -->
-                <div class="card-bg p-6 rounded-2xl border-l-4 border-pink-300 fade-in">
-                    <p class="text-lg italic text-gray-200">"Sebagai orang yang gampang cemas, materi Ho'oponopono benar-benar mengubah cara pandang saya. Belajar melepaskan beban itu ternyata melegakan. Terima kasih Lentera Hati!"</p>
-                    <p class="mt-4 font-bold text-right text-white">- Dita, Mahasiswa</p>
+                <div class="card-bg p-6 rounded-2xl border-l-4 border-pink-300 fade-in testimonial-card">
+                     <img src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Double Exposure" class="double-exposure-img">
+                    <div class="testimonial-content">
+                        <p class="text-lg italic text-gray-200">"Sebagai orang yang gampang cemas, materi Ho'oponopono benar-benar mengubah cara pandang saya. Belajar melepaskan beban itu ternyata melegakan. Terima kasih Lentera Hati!"</p>
+                        <p class="mt-4 font-bold text-right text-white">- Dita, Mahasiswa</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -317,6 +369,17 @@
     <footer class="text-center py-10 px-6 border-t border-gray-800">
         <p class="text-gray-500 text-sm">&copy; 2024 REIKI LENTERA HATI INDONESIA. Dirancang dengan Penuh Cinta.</p>
     </footer>
+
+    <!-- Background Music -->
+    <audio id="background-music" loop>
+        <source src="https://www.dropbox.com/scl/fi/4xonr8br5tryfux581rd5/epic-nusantara-free-gamelan-music-from-indonesian-328513.mp3?rlkey=tm21jvw3y1s2zcp5emge3exvy&raw=1" type="audio/mpeg">
+    </audio>
+
+    <!-- Music Toggle Button -->
+    <button id="music-toggle" class="fixed bottom-5 right-5 z-50 bg-purple-500/50 text-white p-3 rounded-full backdrop-blur-sm shadow-lg hover:bg-purple-500/70 transition-colors">
+        <i data-feather="volume-2" id="volume-icon"></i>
+    </button>
+
 
     <script>
         // Initialize Feather Icons
@@ -395,6 +458,46 @@
 
         document.querySelectorAll('.fade-in').forEach(el => {
             observer.observe(el);
+        });
+
+        // Background Music Logic
+        window.addEventListener('load', () => {
+            const audio = document.getElementById('background-music');
+            const musicToggle = document.getElementById('music-toggle');
+            const volumeIcon = document.getElementById('volume-icon');
+
+            // Set initial volume
+            audio.volume = 0.3;
+
+            // Function to update icon
+            const updateIcon = () => {
+                volumeIcon.setAttribute('data-feather', audio.paused ? 'volume-x' : 'volume-2');
+                feather.replace(); // Re-initialize feather icons
+            };
+
+            // Attempt to play music automatically
+            const playPromise = audio.play();
+            if (playPromise !== undefined) {
+                playPromise.then(_ => {
+                    // Autoplay started
+                    updateIcon();
+                }).catch(error => {
+                    // Autoplay was prevented.
+                    // Show muted icon and wait for user interaction.
+                    console.log("Autoplay dicegah oleh browser.");
+                    updateIcon();
+                });
+            }
+
+            // Toggle music on button click
+            musicToggle.addEventListener('click', () => {
+                if (audio.paused) {
+                    audio.play();
+                } else {
+                    audio.pause();
+                }
+                updateIcon();
+            });
         });
     </script>
 
